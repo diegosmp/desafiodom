@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div>
+            <button id="darkMode" class="dark-mode"></button>
+        </div>
+        <form class="form-container" id="formContainer">
+            <label for="title">Título:</label>
+            <input type="text" name="title" id="title" placeholder="Digite o título do jogo" required>
+            <label for="imgSrc">URL da imagem:</label>
+            <input type="text" name="imgSrc" id="imgSrc" placeholder="URL da imagem" required>
+            <button>Adicionar</button>
+        </form>
+        <section class="container-games" id="containerGames">
+            <div id="cardGame"></div>  
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
